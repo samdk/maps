@@ -13,7 +13,7 @@ div {
 	canvas {
 		border: 1px solid #ccc;
 	}
-	a {
+	#button {
 		display: block;
 		padding: 8px 0;
 		width: 140px;
@@ -29,10 +29,22 @@ div {
 		border: 1px solid #888;
 		text-shadow: 0 1px 1px #aaa;
 	}
-		a:hover {
+		#button:hover {
 			background: #ccc;
 		}
-		a:active {
+		#button:active {
 			text-shadow: 0 -1px 1px #aaa;
 			padding: 9px 0 7px;
 		}
+	p {
+		margin: 10px 0;
+		text-align: center;
+		font-size: 12px;
+		color: #888;
+	}
+		p a {
+			color: #444;
+		}
+			p a:hover {
+				text-decoration: none;
+			}
