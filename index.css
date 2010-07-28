@@ -5,8 +5,34 @@ body {
 	color: black;
 }
 
-canvas {
-	border: 1px solid #ccc;
+div {
 	margin: 10px auto;
 	display: block;
+	width: 258px;
 }
+	canvas {
+		border: 1px solid #ccc;
+	}
+	a {
+		display: block;
+		padding: 8px 0;
+		width: 140px;
+		text-align: center;
+		color: black;
+		text-decoration: none;
+		background: #ddd;
+		margin: 4px auto;
+		-moz-border-radius: 4px;
+		-webkit-border-radius: 4px;
+		-opera-border-radius: 4px;
+		border-radius: 4px;
+		border: 1px solid #888;
+		text-shadow: 0 1px 1px #aaa;
+	}
+		a:hover {
+			background: #ccc;
+		}
+		a:active {
+			text-shadow: 0 -1px 1px #aaa;
+			padding: 9px 0 7px;
+		}

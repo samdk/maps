@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	drawMap();
+	$('#button').live("click",drawMap);
 });
 
 
